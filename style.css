@@ -1,0 +1,119 @@
+.roboto-thin {
+    font-family: "Roboto", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .roboto-light {
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .roboto-regular {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-medium {
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .roboto-black {
+    font-family: "Roboto", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .roboto-thin-italic {
+    font-family: "Roboto", serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .roboto-light-italic {
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .roboto-regular-italic {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .roboto-medium-italic {
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .roboto-bold-italic {
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .roboto-black-italic {
+    font-family: "Roboto", serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    align-items: center;
+}
+
+.field{
+    width: 500px;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+label{
+    font-size: .9rem;
+}
+
+textarea{
+    width: 100%;
+    font-size: 1rem;
+    padding: .5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.counter{
+    font-size: .8rem;
+    color: #555;
+    margin-bottom: 1rem;
+}
+
+#toggle{
+    background-color: #4285f4;
+    color: #fff;
+    font-size: 1.1rem;
+    padding: .4rem 1rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+#toggle:hover{
+    background-color: #0069d9;
+}
+  
